@@ -70,7 +70,7 @@ def load_labels(label_file):
 if __name__ == "__main__":
   file_name = "tf_files/traffic_lights/yellow/left0249.jpg"
   model_file = "tf_files/retrained_graph.pb"
-  label_file = "tf_files/retrained_labels_tl.txt"
+  label_file = "tf_files/retrained_labels.txt"
   input_height = 224
   input_width = 224
   input_mean = 128
